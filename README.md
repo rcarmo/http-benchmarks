@@ -12,8 +12,8 @@ Most of them are little more than `Hello World` web servers, just to get a basel
 
 ### [Janet](https://janet-lang.org)
 
-* ['circlet`](https://github.com/janet-lang/circlet)
-* [`joy](https://github.com/joy-framework/joy)
+* [`circlet`](https://github.com/janet-lang/circlet)
+* [`joy`](https://github.com/joy-framework/joy)
 
 ### Python
 
