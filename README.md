@@ -1,4 +1,4 @@
-# load-testing
+# http-benchmarks
 
 This is a small set of ad-hoc, minimalistic tests for various stacks and web frameworks. 
 
