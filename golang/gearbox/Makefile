@@ -2,7 +2,11 @@ IMAGE_NAME?=golang:1.14-buster
 BINARY_NAME?=gearbox
 
 build:
-	docker run --rm -v "${PWD}":/usr/src/${BINARY_NAME} -w /usr/src/${BINARY_NAME} ${IMAGE_NAME} make binary
+	docker run --rm \
+		-v "${PWD}":/usr/src/${BINARY_NAME} \
+		-w /usr/src/${BINARY_NAME} \
+		${IMAGE_NAME} \
+		make binary
 
 binary:
 	make deps
